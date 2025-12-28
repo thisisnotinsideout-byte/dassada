@@ -18,13 +18,26 @@ export default function Home() {
 
       <p style={{
           "position": "absolute",
-          "left": "109px",
-          "top": "70px",
+          "left": "405px",
+          "top": "76px",
           "color": "#000000",
           "fontSize": "16px"
         }}>
         Lorem ipsum dolor sit amet
       </p>
+
+      <img
+        src="https://via.placeholder.com/400x300"
+        alt="Placeholder image"
+        style={{
+          "position": "absolute",
+          "left": "0px",
+          "top": "0px",
+          "width": "400px",
+          "height": "300px",
+          "borderRadius": "8px"
+        }}
+      />
       </div>
     </main>
   );
